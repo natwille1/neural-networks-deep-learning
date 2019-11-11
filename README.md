@@ -5,9 +5,9 @@ The book can be found here: http://neuralnetworksanddeeplearning.com/index.html.
 
 Each python script implements a different version of a feedforward neural networks with different features:
 
-network.py = feedforward neural network with random weight initialisation (gaussian distribution with mean=0 and standard deviation=1), quadratic cost function,  and no regularisation.
+network.py = feedforward neural network with random weight initialisation, quadratic cost function,  and no regularisation.
 
-network2_unreg.py = optimissed version of network.py with better weight initialisation (gaussian distribution with mean=0 and standard deviation=1 over the square root of the number of weights connecting to the same neuron) and entropy cost function. 
+network2_unreg.py = optimised version of network.py with better weight initialisation and entropy cost function. 
 
 network2_L1.py = optimised version of network2_unreg.py with L1 regularisation. 
 
